@@ -1,0 +1,1 @@
+# This is where we will use flask_wtf to create authentication forms
