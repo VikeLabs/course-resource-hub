@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Flask Auth Example</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-end">
+                <a href="{{ url_for('index') }}" class="navbar-item">
+                    Home
+                </a>
+                <a href="{{ url_for('login') }}" class="navbar-item">
+                    Login
+                </a>
+            </div>
+        </div>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+
+</html>
