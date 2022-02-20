@@ -1,7 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, redirect, render_template, request
 from flask_sqlalchemy import SQLAlchemy
+from app.homepage import following_section
 
 app = Flask(__name__)
+app.register_blueprint(following_section.homepage)
 
 # Configurations
 app.config.from_object('config')
