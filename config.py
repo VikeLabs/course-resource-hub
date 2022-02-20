@@ -12,4 +12,5 @@ class Config(object):
     CSRF_ENABLED     = True
     CSRF_SESSION_KEY = "secret"
 
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = 'mysql://root:pass@localhost/course_resource_hub'
