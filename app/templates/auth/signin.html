@@ -7,8 +7,10 @@
   <label for="username">Username:</label>
   <input type="text" id="username" name="username"><br><br>
   <label for="password">Password:</label>
-  <input type="text" id="password" name="password"><br><br>
+  <input type="password" id="password" name="password"><br><br>
   <input type="submit" value="Submit">
+  <a href="{{ url_for('login.forgot_password') }}">Forgot your password?</a>
+  <a href="{{ url_for('login.signup') }}">Sign Up</a>
 </form>
 
 {% endblock %}
