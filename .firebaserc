@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "course-resource-hub",
+    "staging": "course-resource-hub",
+    "dev": "course-resource-hub",
+    "prod": "course-resource-hub"
+  },
+  "targets": {},
+  "etags": {}
+}
